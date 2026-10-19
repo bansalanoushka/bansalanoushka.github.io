@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anoushka Bansal | Robotics & Automation Engineer</title>
+<meta name="description" content="Robotics & Automation Engineer. Resume and projects of Anoushka Bansal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f0e6d6;
+    --card: #faf5ec;
+    --ink: #3b2416;
+    --muted: #7a5c47;
+    --line: #d8c5aa;
+    --accent: #8f5a2c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+  h1, h2, h3 { font-family: "Bricolage Grotesque", system-ui, sans-serif; line-height: 1.1; }
+
+  .topbar { background: var(--ink); color: var(--paper); font-size: .9rem; }
+  .topbar .wrap { display: flex; flex-wrap: wrap; gap: 4px 24px; padding-top: 10px; padding-bottom: 10px; }
+  .topbar a { text-decoration: none; }
+  .topbar a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  nav { border-bottom: 1px solid var(--line); background: var(--paper); position: sticky; top: 0; z-index: 5; }
+  nav .wrap { display: flex; gap: 24px; padding-top: 14px; padding-bottom: 14px; overflow-x: auto; font-weight: 500; }
+  nav a { text-decoration: none; color: var(--muted); white-space: nowrap; }
+  nav a:hover { color: var(--accent); }
+
+  header { padding: 72px 0 48px; }
+  h1 { font-size: clamp(2.8rem, 9vw, 5.5rem); font-weight: 800; letter-spacing: -0.03em; }
+  .role { margin-top: 16px; font-size: 1.2rem; color: var(--muted); max-width: 60ch; }
+  .summary { margin-top: 20px; max-width: 65ch; }
+  section { padding: 56px 0 8px; }
+  h2 { font-size: 2rem; font-weight: 700; margin-bottom: 24px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+
+  .item { background: var(--card); border: 1px solid var(--line); padding: 22px 24px; margin-bottom: 16px; }
+  .item h3 { font-size: 1.3rem; font-weight: 700; }
+  .meta { color: var(--muted); font-size: .92rem; margin: 4px 0 12px; }
+  .item ul { padding-left: 20px; }
+  .item li { margin-bottom: 8px; }
+  .tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .tags span { font-size: .82rem; border: 1px solid var(--ink); padding: 2px 10px; }
+
+  .skills { display: grid; gap: 0; border: 1px solid var(--line); background: var(--card); }
+  .skills div { display: grid; grid-template-columns: 190px 1fr; gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--line); }
+  .skills div:last-child { border-bottom: 0; }
+  .skills dt { font-weight: 700; font-family: "Bricolage Grotesque", sans-serif; }
+  .skills dd { color: var(--muted); }
+
+  .plain li { background: var(--card); border: 1px solid var(--line); padding: 14px 20px; margin-bottom: 10px; list-style: none; }
+
+  footer { margin-top: 64px; padding: 28px 0 40px; border-top: 2px solid var(--ink); color: var(--muted); font-size: .9rem; }
+
+  @media (max-width: 600px) {
+    .skills div { grid-template-columns: 1fr; gap: 2px; }
+    header { padding-top: 48px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a href="mailto:anoushkabansal19@gmail.com">anoushkabansal19@gmail.com</a>
+    <a href="tel:+919315593378">+91 9315593378</a>
+    <a href="https://www.linkedin.com/in/anoushka-bansal-a2551a261" target="_blank" rel="noopener">LinkedIn</a>
+    <span>New Delhi, India</span>
+  </div>
+</div>
+
+<nav>
+  <div class="wrap">
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#education">Education</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <h1>Anoushka Bansal</h1>
+    <p class="role">Robotics & Automation Engineer</p>
+    <p class="summary">B.Tech graduate in Automation & Robotics (GGSIPU, 2026). I design, simulate and build robots and connected hardware, from a 6-DOF arm analysed in ANSYS to a face-recognition attendance system running on an ESP32-CAM.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <article class="item">
+      <h3>CAE Intern, ELEATION</h3>
+      <p class="meta">Jan 2026 - Jul 2026</p>
+      <ul>
+        <li>Owned the CAD-to-simulation workflow for a 6-DOF robotic arm: parametric modelling in Creo, static structural FEA in ANSYS (peak von-Mises stress 142.3 MPa, safety factor 1.76), and topology optimisation in HyperWorks OptiStruct, cutting link material by 60% (SIMP, 18 iterations).</li>
+        <li>Built on structured certification training across PTC Creo Parametric, ANSYS Workbench and Altair HyperWorks (177/225, 300/325, 365/400).</li>
+      </ul>
+    </article>
+
+    <article class="item">
+      <h3>DEF-Space Winter Intern, Bharat Space Education Research Centre (ISRO), I-STEM</h3>
+      <p class="meta">Dec 2025 - Jan 2026</p>
+      <ul>
+        <li>Selected through a competitive nationwide process for the DEF-Space Winter Internship under ISRO's I-STEM initiative (Viksit Bharat @2047); worked directly with defence-space technology and grassroots STEM innovation frameworks bridging academia and India's space ecosystem.</li>
+      </ul>
+    </article>
+
+    <article class="item">
+      <h3>Robotics & Controls Intern, Johnson & Johnson MedTech</h3>
+      <p class="meta">Jul 2025 &middot; New Delhi</p>
+      <ul>
+        <li>Reduced surgical robotic arm command latency by 25% through PID tuning and real-time feedback optimisation; validated via simulation testing and system log analysis.</li>
+      </ul>
+    </article>
+
+    <article class="item">
+      <h3>Automation Intern, Akshat Udyam Innovative Techno Solutions</h3>
+      <p class="meta">Jun 2025 - Aug 2025</p>
+      <ul>
+        <li>Designed and simulated DustDefy CleanBot, an autonomous waterless solar-panel cleaning robot combining ITO electrostatic plates with piezoelectric vibration actuators, achieving 85%+ fine-dust removal efficiency.</li>
+        <li>Built an AI-based scheduling algorithm (Python/MATLAB) using real-time environmental sensor data to cut cleaning cycles by ~30%; led CAD/FEA/CFD simulation and cost optimisation, reducing unit cost by ~45% (&#8377;22-25K to &#8377;12-15K).</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="item">
+      <h3>Facial Recognition Attendance System (v3)</h3>
+      <p class="meta">Built at OLDC, University of Delhi &middot; Feb 2026 - May 2026</p>
+      <ul>
+        <li>Full-stack system using ESP32-CAM, Arduino R4 WiFi and a TFT LCD, with DeepFace (Facenet) and Flask handling recognition.</li>
+        <li>Added student self-enrollment, subject-wise face folders and automatic attendance marking on recognition.</li>
+        <li>Deployed through a dual Cloudflare Tunnel architecture.</li>
+      </ul>
+      <div class="tags"><span>ESP32-CAM</span><span>Arduino R4 WiFi</span><span>DeepFace</span><span>Flask</span><span>Cloudflare Tunnel</span></div>
+    </article>
+
+    <article class="item">
+      <h3>Gesture Controller</h3>
+      <p class="meta">Self-directed</p>
+      <ul>
+        <li>Wearable MPU6050 + ESP32 device that turns hand-motion data into wireless BLE/WiFi robot-control commands, built to explore low-latency gesture teleoperation as an alternative to handheld remotes.</li>
+      </ul>
+      <div class="tags"><span>MPU6050</span><span>ESP32</span><span>BLE</span><span>WiFi</span></div>
+    </article>
+
+    <article class="item">
+      <h3>Self-Stabilising Spoon</h3>
+      <p class="meta">Self-directed</p>
+      <ul>
+        <li>Gyroscope-based assistive utensil with real-time tremor-compensation control for Parkinson's patients, enabling independent eating.</li>
+      </ul>
+      <div class="tags"><span>Gyroscope</span><span>Control systems</span><span>Assistive tech</span></div>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>Technical skills</h2>
+    <dl class="skills">
+      <div><dt>CAD/CAE</dt><dd>PTC Creo Parametric, ANSYS Workbench, Altair HyperWorks (HyperMesh, OptiStruct, HyperView)</dd></div>
+      <div><dt>Robotics & Control</dt><dd>Arduino Uno/Mega/R4 WiFi, ESP32, ESP32-CAM, PID control, robotic arm control, SCADA, sensor fusion</dd></div>
+      <div><dt>Software & ML</dt><dd>Python, Flask, DeepFace (Facenet), OpenCV, Random Forest, C++ (Arduino IDE)</dd></div>
+      <div><dt>Sensors & Protocols</dt><dd>MPU6050 (IMU), RFID, GPS, Bluetooth, WiFi, UART, I2C, SPI, Cloudflare Tunnel, ngrok</dd></div>
+      <div><dt>Platforms & Tools</dt><dd>MS Office, Arduino IDE, VS Code</dd></div>
+    </dl>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul class="plain">
+      <li><strong>INSPIRE Award (2019):</strong> &#8377;10,000 grant from the Dept. of Science & Technology, Govt. of India, for a smart irrigation prototype.</li>
+      <li><strong>Smart India Hackathon 2024:</strong> selected for Round 2 nationwide.</li>
+      <li><strong>IEEE DTU TinkerCase Tracks 2023:</strong> Top 10 of 50+ teams (95% sensor accuracy).</li>
+      <li><strong>GeekVerse Hackathon 2025 (IEEE WIE USAR):</strong> Logistics Lead for a 900+ participant event with 55 finalist teams.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul class="plain">
+      <li>Google Cybersecurity (Apr 2024)</li>
+      <li>Google Cloud & Gen AI (Oct 2023)</li>
+      <li>TATA Data Visualisation, Forage (Jul 2024)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <article class="item">
+      <h3>B.Tech in Automation & Robotics</h3>
+      <p class="meta">GGSIPU (USAR), New Delhi &middot; Oct 2022 - May 2026</p>
+    </article>
+    <article class="item">
+      <h3>Senior Secondary (CBSE)</h3>
+      <p class="meta">Ahlcon Public School, New Delhi &middot; 2022</p>
+    </article>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 Anoushka Bansal</div>
+</footer>
+
+</body>
+</html>
